@@ -11,6 +11,7 @@ export const PROFILE = {
   location: " Varanasi Uttar Pradesh,India",
   expertise:
     "Frontend Development | React.js | Software Engineering (Intermediate)",
+    resumeFile : "/Ayush-resume.pdf",
 
   tags: [
     "Software Engineer (Frontend)",
@@ -104,6 +105,7 @@ export const PROJECTS = [
     github: "https://ayush799169.github.io/visitor-pass-system/",
     image: visitorPass,
     status: "deployed",
+    note:"Hosted on the free tier. Please allow 3 – 5 seconds for the backend to start on the first load.",
   },
 
   {
@@ -226,20 +228,7 @@ export const BLOG_POSTS = [
   },
 ];
 
-export const Resume = {
-  name: "Ayush Kumar Yadav",
-  role: "Software Engineer | Frontend Developer",
 
-  email: "ay4708504@gmail.com",
-  phone: "7991693805",
-
-  resumeFile: "/resume.pdf",
-
-  socials: {
-    github: "https://github.com/Ayush799169",
-    linkedin: "https://linkedin.com/in/ayush-kumar-yadav-799169",
-  },
-};
 
 export const Contact = {
   name: "Ayush Kumar Yadav",

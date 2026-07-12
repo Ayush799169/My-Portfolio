@@ -9,8 +9,6 @@ function ProjectCard({ project }) {
       className="flex flex-col overflow-hidden rounded-xl border border-slate-800 bg-slate-900/50 shadow-lg
       hover:-translate-y-3 hover:border-teal-400 hover:shadow-[0_0_30px_rgba(45,212,191,.5)]  transition-all duration-500"
     >
-
-      
       <div className="h-48 overflow-hidden bg-slate-950 border-b border-slate-800">
         {project.image ? (
           <img
@@ -46,6 +44,11 @@ function ProjectCard({ project }) {
           {project.description}
         </p>
 
+        {project.note && (
+          <p className="mt-3 text-xs text-yellow-400 leading-5">
+            <strong>Note:</strong> {project.note}
+          </p>
+        )}
         <div className="flex flex-wrap gap-2 my-5">
           {project.tech.map((tech) => (
             <span
@@ -56,7 +59,6 @@ function ProjectCard({ project }) {
             </span>
           ))}
         </div>
-
 
         <div className="mt-auto flex gap-3">
           <a
