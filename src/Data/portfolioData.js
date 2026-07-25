@@ -3,6 +3,10 @@ import visitorPass from "../assets/VisitorPass.png";
 import RealTimeQuiz from "../assets/RealTimeQuiz.png";
 import Portfolio02 from "../assets/Portfolio02.png";
 import Participate from "../assets/Participate.png";
+import Aitracker from "../assets/Ai-tracker.png";
+import movie from "../assets/movie.png";
+import tolist from "../assets/to-list.png";
+
 
 export const PROFILE = {
   name: "Ayush Kumar Yadav",
@@ -11,7 +15,7 @@ export const PROFILE = {
   location: " Varanasi Uttar Pradesh,India",
   expertise:
     "Frontend Development | React.js | Software Engineering (Intermediate)",
-    resumeFile : "/Ayush-resume.pdf",
+    resumeFile : "/Ayush_K_y_Resume.pdf",
 
   tags: [
     "Software Engineer (Frontend)",
@@ -24,7 +28,7 @@ export const PROFILE = {
   ],
 
   email: "ay4708504@gmail.com",
-  phone: "7991693805",
+  phone: "+91 7991693805",
   photo: white,
 
   socials: {
@@ -105,7 +109,7 @@ export const PROJECTS = [
     github: "https://ayush799169.github.io/visitor-pass-system/",
     image: visitorPass,
     status: "deployed",
-    note:"Hosted on the free tier. Please allow 3 – 5 seconds for the backend to start on the first load.",
+    note:"Hosted on the free tier. Please allow 3-5 seconds for the backend to start on the first load.",
   },
 
   {
@@ -122,38 +126,50 @@ export const PROJECTS = [
 
   {
     id: "03",
-    title: "Ai chatbot",
+    title: "AI-Expense-Tracker-Analysis",
     description:
-      "A live multiplayer quiz app with real-time score updates, built to explore sockets and real-time state synchronization.",
-    tech: ["React", "Node.js", "Socket.io", "MongoDB"],
-    live: "#", 
-    github: "https://github.com/Ayush799169",
-    image: null,
-    status: "in-progress",
+      "A smart expense tracker that helps users manage income and expenses, visualize spending with charts, and generate intelligent financial insights using a rule-based analysis engine.",
+       tech: [
+      "Javascript",
+      "React.js",
+      "Tailwind CSS",
+      "Chart.js",
+      "React Router DOM",
+    ],
+    live: "https://aiexpensetracker26.netlify.app/", 
+    github: "https://ayush799169.github.io/AI-Expense-Tracker/",
+    image:Aitracker,
+    status: "deployed",
   },
 
   {
     id: "04",
     title: "Movies | OTT Platform",
     description:
-      "A streaming platform for browsing and watching movies, built to practice API integration and dynamic UI rendering.",
-    tech: ["React", "Node.js", "Express", "MongoDB"],
-    live: "#", 
-    github: "https://github.com/Ayush799169",
-    image: null,
-    status: "in-progress",
+      "A responsive movie browsing application that fetches real-time movie data using APIs, allowing users to search, explore, and view movie details with a modern user interface.",
+    tech: [
+      "JavaScript",
+      "React.js",
+      "Tailwind CSS",
+      "API",
+      "React Router DOM",
+    ],
+    live: "https://movieplatform-941e87.netlify.app/", 
+    github: "https://ayush799169.github.io/movie-Platform/",
+    image: movie,
+    status: "deployed",
   },
 
   {
     id: "05",
-    title: "AI-Powered Expense Tracker Analysis",
+    title: "To-Do-List",
     description:
-      "An AI-driven expense tracking application that provides insights and analysis of spending patterns.",
-    tech: ["React", "Node.js", "Socket.io", "MongoDB"],
-    live: "#", 
-    github: "https://github.com/Ayush799169",
-    image: null,
-    status: "in-progress",
+      "A simple and responsive task management application that allows users to add, edit, delete,Update, and organize daily tasks with persistent local storage.",
+    tech: ["React", "JavaScript", "css", "localStorges"],
+    live: "https://todo-listing-8fac87.netlify.app/", 
+    github: "https://ayush799169.github.io/to--do-list/",
+    image:tolist ,
+    status: "deployed",
   },
 ];
 
