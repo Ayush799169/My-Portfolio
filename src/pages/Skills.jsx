@@ -1,6 +1,6 @@
-import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs, FaGitAlt, FaGithub,} from "react-icons/fa";
+import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs, FaGitAlt, FaGithub,FaCode} from "react-icons/fa";
 
-import { SiTailwindcss, SiExpress, SiMongodb, SiPostman, SiCplusplus,} from "react-icons/si";
+import { SiTailwindcss, SiExpress, SiMongodb, SiPostman, SiCplusplus,SiNetlify,SiC,SiPython} from "react-icons/si";
 
 const skills = [
   { name: "HTML5", icon: <FaHtml5 />, color: "text-orange-500" },
@@ -15,6 +15,10 @@ const skills = [
   { name: "GitHub", icon: <FaGithub />, color: "text-white" },
   { name: "Postman", icon: <SiPostman />, color: "text-orange-400" },
   { name: "C++", icon: <SiCplusplus />, color: "text-blue-400" },
+  { name: "C", icon: <SiC />, color: "text-white" },
+  { name: "Netlify", icon: <SiNetlify />, color: "text-orange-400" },
+  { name: "Data Structure & Algorithm", icon: <FaCode/>, color: "text-blue-400" },
+  { name: "Python", icon: <SiPython/>, color: "text-blue-400" },
 ];
 
 export default function Skills() {
@@ -59,7 +63,6 @@ export default function Skills() {
               <li>• C</li>
               <li>• C++</li>
               <li>• JavaScript</li>
-              <li>• React.JS</li>
             </ul>
           </div>
 
@@ -69,9 +72,10 @@ export default function Skills() {
             <ul className="space-y-2 text-slate-300">
               <li>• HTML5</li>
               <li>• CSS3</li>
-              <li>• JavaScript</li>
+              <li>• JavaScript(ES6)</li>
               <li>• React.js</li>
               <li>• Tailwind CSS</li>
+              <li>• Python (FastAPI) Basic</li>
             </ul>
           </div>
 
@@ -98,6 +102,8 @@ export default function Skills() {
               <li>• GitHub</li>
               <li>• VS Code</li>
               <li>• Postman</li>
+              <li>• Fetch API</li>
+              <li>• Netlify</li>
             </ul>
           </div>
 
@@ -111,6 +117,7 @@ export default function Skills() {
               <li>• Teamwork</li>
               <li>• Problem Solving</li>
               <li>• Time Management</li>
+              <li>• Quick Learning</li>
             </ul>
           </div>
         </div>

@@ -48,8 +48,8 @@ export const ABOUT = {
   ],
   education: [
     {
-      degree: "Bachelor of Computer Applications (BCA) ",
-      institute: "Mahatma Gandhi Kashi Vidyapith",
+      degree: "Bachelor of Computer Applications (BCA) | (CGPA : 7.5)",
+      institute: "Mahatma Gandhi Kashi Vidyapith   (Varanasi)",
       year: "2023 - 2026",
       location: "Varanasi, Uttar Pradesh, India",
       email: "ay470850@gmail.com",
@@ -61,16 +61,17 @@ export const ABOUT = {
 };
 
 export const SKILLS = {
-  "Programming Languages": ["C", "JavaScript", "C++", "React.js"],
+  "Programming Languages": ["C", "JavaScript", "C++",],
 
-  Frontend: ["HTML", "CSS", "JavaScript", "React.js", "Tailwind CSS"],
+  "Frontend": ["HTML", "CSS", "JavaScript", "React.js", "Tailwind CSS"],
 
-  Backend: ["Node.js", "Express.js", "MongoDB", "REST APIs"],
+  "Backend": ["Node.js", "Express.js", "MongoDB", "REST APIs"],
 
-  "Databases & Tools": [ "MongoDB", "Mongoose", "Git", "GitHub", "VS Code", "Postman",],
+  "Databases & Tools": [ "MongoDB", "Mongoose", "Git", "GitHub", "VS Code", "Postman","Netlify","Render",],
 
-  "Soft Skills": ["Teamwork","Problem Solving","Communication","Time Management",],
+  "Soft Skills": ["Teamwork","Problem Solving","Communication","Time Management","Quick Learning",],
 };
+
 
 export const ALL_SKILL_ICONS = [
   "JavaScript",
@@ -86,6 +87,9 @@ export const ALL_SKILL_ICONS = [
   "Postman",
   "C++",
   "Data Structures & Algorithms",
+  "C",
+  "Netlify",
+  "python"
 ];
 
 export const PROJECTS = [
@@ -126,7 +130,7 @@ export const PROJECTS = [
 
   {
     id: "03",
-    title: "AI-Expense-Tracker-Analysis",
+    title: "AI-Powered Expense-Tracker-Analysis",
     description:
       "A smart expense tracker that helps users manage income and expenses, visualize spending with charts, and generate intelligent financial insights using a rule-based analysis engine.",
        tech: [
@@ -135,6 +139,7 @@ export const PROJECTS = [
       "Tailwind CSS",
       "Chart.js",
       "React Router DOM",
+      "LocalStorage",
     ],
     live: "https://aiexpensetracker26.netlify.app/", 
     github: "https://ayush799169.github.io/AI-Expense-Tracker/",
@@ -151,7 +156,7 @@ export const PROJECTS = [
       "JavaScript",
       "React.js",
       "Tailwind CSS",
-      "API",
+      "OMDbAPI",
       "React Router DOM",
     ],
     live: "https://movieplatform-941e87.netlify.app/", 
@@ -165,7 +170,7 @@ export const PROJECTS = [
     title: "To-Do-List",
     description:
       "A simple and responsive task management application that allows users to add, edit, delete,Update, and organize daily tasks with persistent local storage.",
-    tech: ["React", "JavaScript", "css", "localStorges"],
+    tech: ["React.js", "JavaScript", "css", "localStorges","MongoDb","Node.js",],
     live: "https://todo-listing-8fac87.netlify.app/", 
     github: "https://ayush799169.github.io/to--do-list/",
     image:tolist ,
