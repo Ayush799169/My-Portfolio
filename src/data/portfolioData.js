@@ -12,19 +12,20 @@ export const PROFILE = {
   name: "Ayush Kumar Yadav",
   role: "Software Engineer | Frontend Developer",
 
-  location: " Varanasi Uttar Pradesh,India",
+  location: " Lucknow, Uttar Pradesh,India",
   expertise:
-    "Frontend Development | React.js | Software Engineering (Intermediate)",
-    resumeFile : "/Ayush_K_y_Resume.pdf",
+    "Frontend Development | React.js & Tailwind CSS | Software Engineering (Intermediate)",
+    resumeFile : "/Ayush-resume.pdf",
 
   tags: [
-    "Software Engineer (Frontend)",
-    "React Developer",
-    "MERN Stack",
-    "Problem Solver",
-    "C++",
-    "JavaScript",
-    "Fast Learner",
+    "Frontend Developer",
+    "React & Tailwind CSS",
+    "Software Engineering & MERN Stack",
+    "CS Fundamentals & CN",
+    "JavaScript & ",
+    "DSA With C++",
+    "DBMS & REST APIs",
+    "Fast Learner & Problem Solver",
   ],
 
   email: "ay4708504@gmail.com",
@@ -41,22 +42,28 @@ export const PROFILE = {
 
 export const ABOUT = {
   intro:
-    "I am Ayush Kumar Yadav, a passionate Software Engineer (Frontend) and React Developer from Varanasi, Uttar Pradesh, India. I enjoy building responsive, user-friendly, and modern web applications using HTML, CSS, JavaScript, React.js, and Tailwind CSS. I have developed multiple projects to strengthen my frontend development skills and am continuously improving my problem-solving abilities with C++ and Data Structures & Algorithms. I am currently looking for Software Engineer and Frontend Developer opportunities where I can learn, grow, and contribute to real-world products.",
+    "I am Ayush Kumar Yadav, a passionate Software Engineer (Frontend developer) and React Developer. Originally from Mirzapur (near Varanasi), I am currently based in Lucknow, Uttar Pradesh, India. I am Pursuing a Master's degree in Computer Applications (MCA) From University of Lucknow (LU). I enjoy building responsive, user-friendly, and modern web applications using HTML, CSS, JavaScript, React.js, and Tailwind CSS. I have developed multiple projects to strengthen my frontend development skills and am continuously improving my problem-solving abilities with C++ and Data Structures & Algorithms. I am currently looking for Software Engineer and Frontend Developer opportunities where I can learn, grow, and contribute to real-world products.",
   paragraphs: [
     "I care about projects working end to end: deployed, connected, and usable — not just running on localhost.",
     "Currently sharpening my skills in system design and clean API architecture, and looking for opportunities where I can contribute to real products.",
   ],
   education: [
     {
+      degree: "Master of Computer Applications (MCA) | Pursuing",
+      institute: "University of Lucknow (LU), (Lucknow)",
+      year: "2026 - 2028",
+      location: "Lucknow, Uttar Pradesh, India",
+    },
+{
       degree: "Bachelor of Computer Applications (BCA) | (CGPA : 7.5)",
-      institute: "Mahatma Gandhi Kashi Vidyapith   (Varanasi)",
+      institute: "Mahatma Gandhi Kashi Vidyapith ,  (Varanasi)",
       year: "2023 - 2026",
       location: "Varanasi, Uttar Pradesh, India",
+
       email: "ay470850@gmail.com",
       Phone: "7991693805",
-      learning:
-        "Software Engineering, Web Development, Data Structures & Algorithms, Database Management, and Problem Solving.",
-    },
+      learning: "CS Fundamentals, Oprating System, Computer Network(CN), Data Structures & Algorithms(DSA), Database Management(DBMS), and Problem Solving with C++ and backend systems using Node.js and Express.js.",
+},
   ],
 };
 
@@ -69,7 +76,7 @@ export const SKILLS = {
 
   "Databases & Tools": [ "MongoDB", "Mongoose", "Git", "GitHub", "VS Code", "Postman","Netlify","Render",],
 
-  "Soft Skills": ["Teamwork","Problem Solving","Communication","Time Management","Quick Learning",],
+  "Soft Skills": ["Teamwork","Problem Solving & Analytics","Communication","Time Management","Quick Learning & Adaptability",],
 };
 
 
@@ -185,6 +192,13 @@ export const CERTIFICATES = [
     year: "May 2026",
     category: "tech",
     link: "https://upskill.tutedude.com/certificate/TD-AYUS-ME-0920",
+  },
+  {
+    title: "AI & Cybersecurity Awareness and Generative AI Essentials",
+    issuer: "TCSiON",
+    year: "August 2026",
+    category: "tech",
+    link: "https://drive.google.com/file/d/1KGyP45OBeAOnyE5SpTaN5pG8wzQtuVtj/view?usp=sharing",
   },
 ];
 

@@ -115,9 +115,9 @@ export default function Skills() {
             <ul className="space-y-2 text-slate-300">
               <li>• Communication</li>
               <li>• Teamwork</li>
-              <li>• Problem Solving</li>
+              <li>• Problem Solving & Analytics</li>
               <li>• Time Management</li>
-              <li>• Quick Learning</li>
+              <li>• Quick Learning & Adaptability</li>
             </ul>
           </div>
         </div>

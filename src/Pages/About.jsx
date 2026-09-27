@@ -54,7 +54,7 @@ export default function About() {
       <div className="bg-slate-900/60 border border-slate-700 rounded-xl p-6 shadow-lg hover:border-cyan-400 transition-all duration-300 mb-10">
         {ABOUT.education.map((edu, i) => (
           <p key={i} className="text-slate-300 leading-8">
-            • {edu.learning}
+             {edu.learning}
           </p>
         ))}
       </div>
